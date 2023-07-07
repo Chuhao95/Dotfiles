@@ -2,10 +2,10 @@
 
 Run the following script
 
-'''sh
+```sh
 git clone https://github.com/Chuhao95/Dotfiles.git ~/Dotfiles
 cd ~ 
 ./Dotfiles/symlink_dotfiles.sh
-'''
+```
 
 This will symlink the dotfiles in Dotfiles folder to your home directory
