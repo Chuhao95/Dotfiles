@@ -1,0 +1,10 @@
+[user]
+	email = chuhaoliu1995@gmail.com
+	name = Chuhao Liu
+[core]
+	editor = vim
+	pager = less -F -X
+[init]
+	defaultBranch = main
+[alias]
+	graph = log --all --graph --decorate --oneline
