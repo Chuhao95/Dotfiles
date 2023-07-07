@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Creat symbolic link for dotfiles between home directory and this folder named Dotfiles
 for file in ~/Dotfiles/.*; do
 # Skip ., .., .git files by using regex

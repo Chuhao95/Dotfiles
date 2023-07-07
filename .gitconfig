@@ -7,5 +7,3 @@
 	excludesfile = /Users/chuhaoliu/.gitignore_global
 [init]
 	defaultBranch = main
-[alias]
-	graph = log --all --graph --decorate --oneline
