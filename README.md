@@ -1,3 +1,10 @@
-This is my Dotfiles folder
-Git clone it to your home directory and run following script
-'cd ~ && git clone $$ ./Dotfiles/symlink_dotfiles.sh'
+# This is my Dotfiles folder
+
+Run the following script
+'''sh
+git clone https://github.com/ ~/Dotfiles
+cd ~ 
+./Dotfiles/symlink_dotfiles.sh'
+'''
+
+This will symlink the dotfiles in Dotfiles folder to your home directory
