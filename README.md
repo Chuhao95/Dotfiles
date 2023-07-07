@@ -2,7 +2,7 @@
 
 Run the following script
 '''sh
-git clone https://github.com/ ~/Dotfiles
+git clone https://github.com/Chuhao95/Dotfiles.git ~/Dotfiles
 cd ~ 
 ./Dotfiles/symlink_dotfiles.sh'
 '''
