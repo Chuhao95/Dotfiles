@@ -6,11 +6,14 @@
 # ask user to decide if mv command erase a current file
 alias mv='mv -i'
 # alias for git
-alias gl='git log'
+alias gl='git log --graph --oneline'
 alias gs='git status'
 alias gc='git commit -m'
 alias ga='git add -A'
 alias gp='git push'
+alias gu='git restore --staged'
+alias grip='grip -b' # render README.md in markdown and auto open browser
+
 ####################
 ####################
 
@@ -86,7 +89,7 @@ DISABLE_LS_COLORS="true"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(zsh-autosuggestions zsh-syntax-highlighting)
+plugins=(vi-mode history-substring-search zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -116,3 +119,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+
+# Generated for envman. Do not edit.
+[ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
