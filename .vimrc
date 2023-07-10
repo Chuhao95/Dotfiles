@@ -88,5 +88,9 @@ endif
 
 call plug#begin('~/.vim/plugged')
 Plug 'Raimondi/delimitMate'
+Plug 'dense-analysis/ale'
 call plug#end()
 
+
+" ALE: reasonable defaults from webinstall.dev/vim-ale
+source ~/.vim/plugins/ale.vim
