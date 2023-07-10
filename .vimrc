@@ -88,7 +88,6 @@ endif
 
 call plug#begin('~/.vim/plugged')
 Plug 'Raimondi/delimitMate'
-Plug 'dense-analysis/ale'
 call plug#end()
 
 
