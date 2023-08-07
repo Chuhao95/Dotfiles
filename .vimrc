@@ -53,6 +53,12 @@ set smartcase
 " Enable searching as you type, rather than waiting till you press enter.
 set incsearch
 
+" Enable search highlighting
+set hlsearch
+
+" Remap UndotreeToggle command from Undotree plugin to F5
+nnoremap <F5> :UndotreeToggle<CR>
+
 " Unbind some useless/annoying default key bindings.
 nmap Q <Nop> " 'Q' in normal mode enters Ex mode. You almost never want this.
 
@@ -93,3 +99,10 @@ call plug#end()
 
 " ALE: reasonable defaults from webinstall.dev/vim-ale
 source ~/.vim/plugins/ale.vim
+
+" Enable persistent undo
+set undofile
+
+" Set the directory for undo files
+set undodir=~/.vim/undo
+
