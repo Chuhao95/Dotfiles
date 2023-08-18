@@ -6,7 +6,7 @@
 # ask user to decide if mv command erase a current file
 alias mv='mv -i'
 # alias for git
-alias gl='git log --graph --oneline'
+alias gl='git log --graph --oneline -n 6'
 alias gs='git status'
 alias gc='git commit -m'
 alias ga='git add -A'
